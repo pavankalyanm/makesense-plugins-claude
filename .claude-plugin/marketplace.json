@@ -7,14 +7,17 @@
   "plugins": [
     {
       "name": "mails-bridge",
-      "description": "Bridge Claude to your email accounts — search, read, send, draft, and organize emails across Gmail, Outlook, Yahoo, iCloud, AOL, Zoho, Fastmail, ProtonMail, or any custom IMAP/SMTP provider. Add unlimited accounts with auto-detected server settings. Setup takes 2 minutes: generate an App Password from your email provider, tell Claude your email and password, and you're connected. Use it in Cowork for daily inbox briefings, cross-account searches, batch drafting, and automated email workflows. 16 tools included: email_search, email_read_message, email_read_thread, email_send, email_create_draft, email_list_drafts, email_list_folders, email_move_message, email_mark_read, email_mark_unread, email_star_message, email_get_profile, email_add_account, email_remove_account, email_list_accounts, email_supported_providers.",
+      "description": "Connect all your email inboxes to Claude — Gmail, Outlook, Yahoo, iCloud, or any email provider that supports IMAP/SMTP. Add unlimited accounts, and Claude auto-detects the server settings from your email address. Setup takes 2 minutes: generate an App Password, share it with Claude, done. Search across inboxes, read and reply to messages, draft emails, organize with folders and stars — all from one conversation. Works great in Cowork for morning inbox briefings, cross-account searches, and batch email workflows.",
       "version": "0.2.0",
       "author": {
         "name": "Pavan Kalyan"
       },
       "source": "./mails-bridge",
       "category": "productivity",
-      "homepage": "https://github.com/pavankalyanm/makesense-plugins-claude"
+      "homepage": "https://github.com/pavankalyanm/makesense-plugins-claude",
+      "skills": [
+        "./mails-bridge/skills/email"
+      ]
     }
   ]
 }
