@@ -1,5 +1,5 @@
 {
-  "name": "claude-plugins",
+  "name": "pk-mcp-plugins",
   "description": "MCP plugins for Claude Code — email, productivity, and developer tools.",
   "owner": {
     "name": "Pavan Kalyan"
